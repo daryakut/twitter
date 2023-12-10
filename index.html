@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root">
+      <div class="header">
+        <span class="header-main-text">Home</span>
+      </div>
+      <form id="tweetForm" class="input-container">
+        <div class="input-user-image"></div>
+        <div class="input-box">
+          <textarea
+            id="userMessage"
+            class="user-message"
+            type="text"
+            placeholder="What's happening"
+          ></textarea>
+          <div class="actions-block">
+            <div class="icons">
+              <i><img src="assets/1.svg" /></i>
+              <i><img src="assets/2.svg" /></i>
+              <i><img src="assets/3.svg" /></i>
+              <i><img src="assets/4.svg" /></i>
+              <i><img src="assets/5.svg" /></i>
+            </div>
+            <button class="tweet-button" type="submit">Tweet</button>
+          </div>
+        </div>
+      </form>
+
+      <div class="spacer-header"></div>
+      <div class="feed-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

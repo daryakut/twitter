@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #d9d9d9;
+  background-color: #000000;
+}
+
+#root {
+  padding: 10px 100px;
+}
+
+.header {
+  /* position: fixed; */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-left: 15px;
+  border-bottom: solid 1px #ccc;
+}
+.input-container {
+  position: sticky;
+  top: 50px;
+  width: 100%;
+  display: flex;
+  border-bottom: solid 1px #ccc;
+  padding: 14px 4px 4px 4px;
+  margin-bottom: 10px;
+}
+
+.input-user-image {
+  background-color: #fff;
+  background-image: url("https://robohash.org/perferendisideveniet.png");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  border-radius: 50%;
+  flex: 0 0 auto;
+}
+.input-box {
+  width: 100%;
+  margin-left: 20px;
+}
+.user-message {
+  height: 60px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.actions-block {
+  display: flex;
+  justify-content: space-between;
+}
+.icons i{
+  cursor:pointer;
+}
+
+.tweet-button {
+  background-color: #1d9bf0;
+  padding: 10px 20px ;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.feed-container {
+}
+.feed-item-container {
+  display: flex;
+  border-bottom: solid 1px #ccc;
+  padding: 4px;
+  margin-bottom: 10px;
+}
+.feed-user-image {
+  background-color: #fff;
+  background-image: url("https://robohash.org/excepturiiuremolestiae.png");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  border-radius: 50%;
+  flex: 0 0 auto;
+}
+.feed-item-box {
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.feed-item-content {
+  width: 100%;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+.user-name {
+  font-weight: bold;
+  color: #fff;
+  line-height: 20px;
+  font-size: larger;
+}
+.icon-verified {
+  margin-left: 6px;
+  height: 17px;
+  width: 18px;
+  display: inline-block;
+}
+.reactions-block {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 250px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.reaction-group {
+  display: flex;
+}
+.retweet-icon {
+  margin: 4px;
+  height: 22px;
+  width: 22px;
+}
+.retweet-value {
+  margin: 8px 0 0 4px;
+}
